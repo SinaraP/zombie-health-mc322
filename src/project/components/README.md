@@ -100,3 +100,7 @@ Objetivo | `O componente Decision Tree (Primeira Opinião) é responsável por f
 Interface | `IDecisionTree`
 
 ```
+public interface ITreeProducer {
+    public void buildTree();
+}
+```
