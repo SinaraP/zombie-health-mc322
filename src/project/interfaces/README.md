@@ -77,3 +77,11 @@ Extende outras duas interfaces : `ITreeProducer`, e `ITableProducerReceptacle`. 
 Método | Objetivo
 ------ | --------
 `getBestQuestions` | Retorna um vetor de contendo a ordem dos sintomas a serem perguntados a fim de diminuir o número de perguntas para descobrir uma doença.
+
+### Interface `ITableProducerReceptacle`
+Responsável por conectar a componente **DataSet** provedora de uma tabela .csv de sintomas e doenças à componentes receptoras.
+
+### Interface `ITableReceptacle`
+Método | Objetivo
+------ | --------
+`connect` | Recebe uma interface da componente responsável por produzir a Tabela de Correlação.
