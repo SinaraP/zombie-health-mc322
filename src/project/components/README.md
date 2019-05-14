@@ -72,7 +72,7 @@ Campo | Valor
 ----- | -----
 Classe | `project.components.SecondOpinionComponent`
 Autores | `Dino Scientists`
-Objetivo | `Dar ao paciente uma segunda opinião sobre seus sintomas, verificando a primeira resposta do doutor e comentando caso haja uma segunda doença menos provável mas ainda possível. Abrange os outliers utilizando comparações entre modelos gerados por RandomForest.
+Objetivo | `Dar ao paciente uma segunda opinião sobre seus sintomas, verificando a primeira resposta do doutor e comentando caso haja uma segunda doença menos provável mas ainda possível. Abrange os outliers utilizando comparações entre modelos gerados por RandomForest.`
 Interface | `ISecondOpinion`
 
 ```
@@ -96,7 +96,7 @@ Campo | Valor
 ----- | -----
 Classe | `project.components.FirstOpinionComponent`
 Autores | `Dino Scientists`
-Objetivo | `O componente Primeira Opinião é responsável por fornecer ao paciente um diagnóstico com base na tabela de correlação. A tabela de correlação mostra o quão relevante é um sintoma para determinado diagnóstico, e assim constrói uma Árvore de Decisão. 
+Objetivo | `O componente Primeira Opinião é responsável por fornecer ao paciente um diagnóstico com base na tabela de correlação. A tabela de correlação mostra o quão relevante é um sintoma para determinado diagnóstico, e assim constrói uma Árvore de Decisão.` 
 Interface | `IFirstOpinion`
 
 ```
