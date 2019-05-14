@@ -91,3 +91,12 @@ public interface ISecondOpinion extends IDataSet, ISplitDataSet, IPatient {
     
 }
 ```
+## Componente `FirstOpinion`
+Campo | Valor
+----- | -----
+Classe | `project.components.FirstOpinionComponent`
+Autores | `Dino Scientists`
+Objetivo | `O componente Primeira Opinião é responsável por fornecer ao paciente um diagnóstico com base na tabela de correlação. A tabela de correlação mostra o quão relevante é um sintoma para determinado diagnóstico, e assim constrói uma Árvore de Decisão. 
+Interface | `IFirstOpinion`
+
+```
